@@ -318,7 +318,7 @@ body {
       top: 0;
       left: 0;
       background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
-      opacity: .6; }
+      opacity: 0; }
   .recipe__img {
     width: 100%;
     display: block;
@@ -443,7 +443,7 @@ body {
   .shopping__list {
     list-style: none;
     max-height: 77rem;
-    overflow: scroll; }
+    overflow: auto; }
   .shopping__item {
     display: flex;
     align-items: flex-start;
